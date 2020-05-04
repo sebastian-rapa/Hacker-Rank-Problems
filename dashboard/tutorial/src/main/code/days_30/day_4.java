@@ -1,8 +1,6 @@
 package main.code.days_30;
 
 import java.util.Scanner;
-import java.io.*;
-import java.util.*;
 
 public class day_4 {
 
