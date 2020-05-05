@@ -20,9 +20,4 @@ class Kangaroo {
                 return "YES";
         }
     }
-
-    public static void main(String[] args) {
-        System.out.println(kangaroo(21, 6, 47, 3));
-
-    }
 }
