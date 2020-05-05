@@ -12,15 +12,23 @@ class Main {
 
     public static void main(String[] args) throws IOException {
         // Reading an int array from the console, first line has n and second the array
-        int arCount = scanner.nextInt();
+        /*int arCount = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
         int[] ar = new int[arCount];
 
         String[] arItems = scanner.nextLine().split(" ");
-        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");*/
 
-        scanner.close();
+        List<Integer> firstList = new ArrayList<>();
+        List<Integer> secondList = new ArrayList<>();
+        firstList.add(2);
+        firstList.add(4);
+        secondList.add(16);
+        secondList.add(32);
+        secondList.add(96);
+        System.out.println(BetweenTwoSets.getTotalX(firstList, secondList));
+//        scanner.close();
     }
 
     private static List<List<Integer>> getArrayForDiagonalDifferenceProblem(){
