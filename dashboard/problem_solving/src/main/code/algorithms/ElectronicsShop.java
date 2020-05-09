@@ -1,7 +1,5 @@
 package main.code.algorithms;
 
-import java.util.Scanner;
-
 class ElectronicsShop {
 
     static int getMoneySpent(int[] keyboards, int[] drives, int b) {
