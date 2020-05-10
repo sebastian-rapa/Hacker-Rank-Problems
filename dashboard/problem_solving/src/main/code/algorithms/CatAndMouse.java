@@ -13,9 +13,4 @@ class CatAndMouse {
         else
             return "Cat A";
     }
-
-    public static void main(String[] args) {
-        System.out.println(catAndMouse(1, 2, 3));
-        System.out.println(catAndMouse(1, 3, 2));
-    }
 }
