@@ -1,4 +1,4 @@
-package main.code.days_30;
+package main.code.days_30.day_9;
 
 class day_9 {
     static int factorial(int n) {
